@@ -1,9 +1,9 @@
 'use strict'
 
-const N = 10
-const M = 10
-const offset_x = 100
-const offset_y = 100
+const N = 15
+const M = 15
+const offset_x = 27
+const offset_y = 27
 const linewidth = 2;
 
 const frame_size = 25
