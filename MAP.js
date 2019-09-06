@@ -129,4 +129,4 @@ function game(map) {
 
 }
 
-game(map); //hello
+game(map);
