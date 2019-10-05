@@ -1,5 +1,7 @@
 'use strict'
 
+var test_it = {git : 0};
+
 function check_neighbours_up(map , j , i) {
     var count = 0;
 
