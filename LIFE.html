@@ -7,24 +7,16 @@
 
     <title>Game of life</title>
 
-    <style type="text/css">
-
-        #canvas{background-color: #ff0014;}
-
-    </style>
-
-
-    <style type="text/css">
-        canvas { border: 1px solid #07070e; }
-    </style>
+    <link rel="stylesheet" href="page_style.css">
 
 </head>
 
-<body>
+<body class="body">
 
-    <canvas id="game" width="500" height="500" ></canvas>
 
-    <input type="button" value="step" name="hello" onclick="get_new_map(map) , draw(canvasE)">
+    <canvas class="canvas" id="game" width="450" height="450"></canvas>
+    <input class="butt" type="button" value="step" name="hello" onclick="get_new_map(map) , draw(canvasE) ">
+
 
     <script src="MAP.js"></script>
 
