@@ -3,29 +3,52 @@
 }
 
 .canvas {
-    position: absolute;
-    top: 0;
-    bottom: 45%;
-    left: 0;
-    right: 0;
-    margin: auto;
+    position: inherit;
+
+    margin-left: 25%; /*?*/
+    margin-bottom: 5%; /*?*/
 
     background-color: yellow;
     border: 1px solid whitesmoke;
+
+    cursor: crosshair;
 }
 
-.block {
-    width: 30%;
-    height: 300px;
-
-    border: 3px solid orange;
-
-    display : inline-block;
-
-    margin: 10px;
-    position: static;
+.p{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 30px;
 }
 
-.butt {
-    position: absolute;
+.button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+    padding: 16px 32px;
+
+    font-size: 18px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.button1 {
+    margin-top: 20px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #ffd200;
+}
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#page{
+    margin: auto; /*?*/
+    width: 50%; /*?*/
+    text-align: inherit; /*?*/
+
+    border: solid 1px #ffd200;  /* для отображения границ полезно! */
+    min-height: 700px; /*?*/
 }

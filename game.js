@@ -85,7 +85,7 @@ function check_neighbours_up(map , j , i) {
             count++;
         }
         // map[0][-1]
-        if (map[i][M - 1]) {
+        if (map[i][j- 1]) {
             count++;
         }
         // map[0][+1]
